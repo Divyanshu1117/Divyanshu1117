@@ -2,37 +2,28 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # once every day
+    - cron: "0 0 * * *" # daily run
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake as GIF
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
-          outputs: |
-            dist/github-contribution-grid-snake.gif
-            dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
+          color_snake: "#9417FF" # Snake ka color (Purple)
+          color_dots: "#0d1117,#216e39,#30a14e,#40c463,#9be9a8" # Background + contribution shades
 
-      - name: Push Snake to output branch
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git fetch
-          git checkout --orphan output
-          git reset --hard
-          cp dist/github-contribution-grid-snake.gif github-contribution-grid-snake.gif
-          cp dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
-          git add github-contribution-grid-snake.gif github-contribution-grid-snake.svg
-          git commit -m "Update snake animation"
-          git push --force origin output
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
