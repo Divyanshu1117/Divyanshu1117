@@ -2,21 +2,21 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Runs daily at 00:00 UTC
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # Required for pushing to branches
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake (Dark + Neon)
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
@@ -28,5 +28,5 @@ jobs:
       - name: Deploy to output branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: output
-          folder: dist
+          branch: output    # THIS creates/updates output branch
+          folder: dist      # Upload dist folder contents
