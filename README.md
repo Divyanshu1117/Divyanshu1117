@@ -39,7 +39,8 @@
 
 ## 🐍 Contribution Snake
 
-![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?refresh=1)
+![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?sanitize=true&v=2)
+
 
 
 ---
