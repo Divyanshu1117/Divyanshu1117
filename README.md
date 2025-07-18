@@ -37,8 +37,7 @@
 ---
 
 ## 🐍 Fancy Contribution Snake (Dark + Neon)
-
-![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/neon-snake.svg?t=2)
+![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?t=10)
 
 ---
 
