@@ -1,30 +1,30 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Runs daily
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake with Gradient
+      - name: Generate Snake (Neon + Dark)
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#ff00ff,#00ffff,#ff1493" # Gradient colors
-          color_dots: "#0d1117,#161b22,#30363d,#484f58,#6e7681" # Dark GitHub-like shades
+          color_snake: "#ff00ff,#00ffff,#ff1493" # Neon gradient
+          color_dots: "#0d1117,#161b22,#30363d,#484f58,#6e7681" # Dark theme shades
           svg_width: 1200
 
-      - name: Push to output
+      - name: Push to output branch
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "Update snake animation with gradient"
+          message: "Update fancy neon snake animation"
           add: "dist/github-contribution-grid-snake.svg"
