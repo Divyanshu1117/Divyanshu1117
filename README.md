@@ -38,8 +38,6 @@
 
 ## 🐍 Snake
 ![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
-7/output/neon-snake.svg?t=100
-
 ---
 
 ## 📫 Contact
