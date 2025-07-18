@@ -34,13 +34,14 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Divyanshu1117&theme=tokyonight&date_format=j%20M%5B%20Y%5D)
 
-
 ---
 
 ## 🐍 Contribution Snake
+<br>
 
-![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.gif)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
 
 ---
 
