@@ -2,11 +2,11 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # once every day
   workflow_dispatch:
 
 permissions:
-  contents: write  # This allows pushing to branches
+  contents: write
 
 jobs:
   build:
@@ -16,13 +16,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake with Custom Colors
+      - name: Generate Snake as GIF
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
-          outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#39d353"
-          color_dots: "#161b22,#39d353,#26a641,#006d32,#0e4429"
+          outputs: |
+            dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg
 
       - name: Push Snake to output branch
         run: |
@@ -31,7 +31,8 @@ jobs:
           git fetch
           git checkout --orphan output
           git reset --hard
+          cp dist/github-contribution-grid-snake.gif github-contribution-grid-snake.gif
           cp dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
-          git add github-contribution-grid-snake.svg
-          git commit -m "Update snake animation with custom colors"
+          git add github-contribution-grid-snake.gif github-contribution-grid-snake.svg
+          git commit -m "Update snake animation"
           git push --force origin output
