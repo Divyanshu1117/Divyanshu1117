@@ -10,15 +10,15 @@
 
 ## 🚀 About Me
 
-- 🔭 Currently working on **Java EE & MERN practice projects**
-- 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux basics**
-- 🧪 Experimenting with **Java Servlets, JSP, and MySQL**
-- 🤖 Exploring basics of **AI & Machine Learning**
-- ⚡ Motto: *Code. Learn. Repeat.*
+* 🔭 Currently working on **Java EE & MERN practice projects**
+* 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux basics**
+* 🧪 Experimenting with **Java Servlets, JSP, and MySQL**
+* 🤖 Exploring basics of **AI & Machine Learning**
+* ⚡ Motto: *Code. Learn. Repeat.*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack (Animated)
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,react,redux,nodejs,express,mongodb,java,mysql,git,linux,ai" />
@@ -28,16 +28,18 @@
 
 ## 📊 GitHub Stats
 
-![Divyanshu's GitHub stats](https://github-readme-stats.vercel.app/api?username=Divyanshu1117&show_icons=true&theme=tokyonight)
+![Divyanshu's GitHub stats](https://github-readme-stats.vercel.app/api?username=Divyanshu1117&show_icons=true&theme=radical)  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117&layout=compact&theme=radical)  
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Divyanshu1117&theme=tokyonight&date_format=j%20M%5B%20Y%5D)
+![GitHub Streak](https://streak-stats.demolab.com?user=Divyanshu1117&theme=radical&date_format=j%20M%5B%20Y%5D)
 
 ---
 
-## 🐍 Snake
+## 🐍 Contribution Snake (Static)
+
 ![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
 ---
 
 ## 📫 Contact
