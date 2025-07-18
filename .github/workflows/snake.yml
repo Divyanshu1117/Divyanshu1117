@@ -13,11 +13,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate Snake with Custom Colors
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
           outputs: dist/github-contribution-grid-snake.svg
+          color_snake: "#39d353"  # Green snake color
+          color_dots: "#161b22,#39d353,#26a641,#006d32,#0e4429" # Dark mode green shades
+          # First color = background, rest = contribution levels
 
       - name: Push Snake to output branch
         run: |
@@ -28,5 +31,5 @@ jobs:
           git reset --hard
           cp dist/github-contribution-grid-snake.svg github-contribution-grid-snake.svg
           git add github-contribution-grid-snake.svg
-          git commit -m "Add snake animation"
+          git commit -m "Update snake animation with custom colors"
           git push --force origin output
