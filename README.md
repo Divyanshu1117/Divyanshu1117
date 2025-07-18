@@ -1,10 +1,10 @@
 # Hi there, I'm Divyanshu! 👋
 
-🎓 **MCA Student**
+🎓 **MCA Student**  
 💻 **Aspiring Full Stack Developer** (MERN + Java/JSP)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Divyanshu1117\&color=blue\&style=flat-square)
-![Dynamic Quote](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=radical)
+![Profile Views](https://komarev.com/ghpvc/?username=Divyanshu1117&color=blue&style=flat-square)  
+![Dynamic Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 
@@ -28,11 +28,11 @@
 
 ## 📊 GitHub Stats
 
-![Divyanshu's GitHub stats](https://github-readme-stats.vercel.app/api?username=Divyanshu1117\&show_icons=true\&theme=tokyonight)
+![Divyanshu's GitHub stats](https://github-readme-stats.vercel.app/api?username=Divyanshu1117&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117\&layout=compact\&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117&layout=compact&theme=tokyonight)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Divyanshu1117\&theme=tokyonight\&date_format=j%20M%5B%20Y%5D)
+![GitHub Streak](https://streak-stats.demolab.com?user=Divyanshu1117&theme=tokyonight&date_format=j%20M%5B%20Y%5D)
 
 ---
 
@@ -49,4 +49,3 @@
 ---
 
 ⭐ **If you like my profile, consider giving a star to my repositories!**
-
