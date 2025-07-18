@@ -36,8 +36,8 @@
 
 ---
 
-## 🐍 Snake
-![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg?background=transparent)
+## 🐍 Contribution Snake (Black Background)
+![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
