@@ -9,13 +9,11 @@
 ---
 
 ### 🚀 About Me
-<p align="center">
-🔭 Working on <b>Java EE & MERN practice projects</b><br>
-🌱 Learning <b>React, Redux, Node.js, Express, MongoDB & Linux</b><br>
-🧪 Exploring <b>Java Servlets, JSP, and MySQL</b><br>
-🤖 Basics of <b>AI & Machine Learning</b><br>
-⚡ Motto: <i>Code. Learn. Repeat.</i>
-</p>
+- 🔭 Working on **Java EE & MERN practice projects**
+- 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux**
+- 🧪 Exploring **Java Servlets, JSP, and MySQL**
+- 🤖 Basics of **AI & Machine Learning**
+- ⚡ Motto: *Code. Learn. Repeat.*
 
 ---
 
@@ -38,18 +36,14 @@
 
 ---
 
-### 🐍 Contribution Snake (Clean Dark)
-<p align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
+### 🐍 Contribution Snake (Dark Transparent)
+![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
 ### 📫 Contact
-<p align="center">
-<b>Email:</b> <a href="mailto:vashishthdivyanshu18@gmail.com">vashishthdivyanshu18@gmail.com</a>
-</p>
+**Email:** [vashishthdivyanshu18@gmail.com](mailto:vashishthdivyanshu18@gmail.com)
 
 ---
 
-<p align="center">⭐ If you like my profile, consider giving a star to my repositories!</p>
+⭐ **If you like my profile, consider giving a star to my repositories!**
