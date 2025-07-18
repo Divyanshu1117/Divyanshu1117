@@ -37,13 +37,9 @@
 ---
 
 ## 🐍 Contribution Snake
-<br>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
+![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg)
 
----
 
 ## 📫 Contact
 
