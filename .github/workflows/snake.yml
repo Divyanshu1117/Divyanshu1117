@@ -1,29 +1,27 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily run
+    - cron: "0 0 * * *" # Runs every day at midnight
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
-      - name: Generate Snake
+    steps:
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#9417FF" # Purple
-          color_dots: "#161b22,#0e4429,#006d32,#26a641,#39d353" # GitHub dark theme colors
+          color_snake: "#9417FF" # Purple snake
+          color_dots: "#161b22,#0e4429,#006d32,#26a641,#39d353" # GitHub dark colors
           svg_width: 1000
-          padding: 20
+          padding: 20 # ✅ Extra space on top and bottom
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Push Snake Animation
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
