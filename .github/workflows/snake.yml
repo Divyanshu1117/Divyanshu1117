@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write  # allow pushing to branches
+  contents: write
 
 jobs:
   build:
@@ -20,17 +20,13 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
-          # we output ONE file; easier to track
-          outputs: dist/neon-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
           color_snake: "#ff00ff,#00ffff,#ff1493"
           color_dots: "#0d1117,#161b22,#30363d,#484f58,#6e7681"
           svg_width: 1200
 
-      - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Deploy to output branch
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target_branch: output
-          build_dir: dist
-          keep_history: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          folder: dist
