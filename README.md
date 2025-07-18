@@ -2,18 +2,20 @@
 ✨ Hi there, I'm <span style="color:#FF00FF;">Divyanshu</span>! 👋  
 </h1>
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&width=500&lines=MCA+Student;Aspiring+Full+Stack+Developer;Java+%2B+MERN+Stack+Learner;Always+Learning+%26+Building" />
-</p>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=MCA+Student;Aspiring+Full+Stack+Developer;Java+%2B+MERN+Stack+Developer;Always+Learning+%26+Building" />
+</div>
 
 ---
 
 ### 🚀 About Me
-- 🔭 Working on **Java EE & MERN practice projects**
-- 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux**
-- 🧪 Exploring **Java Servlets, JSP, and MySQL**
-- 🤖 Basics of **AI & Machine Learning**
-- ⚡ Motto: *Code. Learn. Repeat.*
+<p align="center">
+🔭 Working on <b>Java EE & MERN practice projects</b><br>
+🌱 Learning <b>React, Redux, Node.js, Express, MongoDB & Linux</b><br>
+🧪 Exploring <b>Java Servlets, JSP, and MySQL</b><br>
+🤖 Basics of <b>AI & Machine Learning</b><br>
+⚡ Motto: <i>Code. Learn. Repeat.</i>
+</p>
 
 ---
 
@@ -36,14 +38,18 @@
 
 ---
 
-### 🐍 Contribution Snake (Dark Transparent)
-![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+### 🐍 Contribution Snake (Transparent)
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
 
 ---
 
 ### 📫 Contact
-**Email:** [vashishthdivyanshu18@gmail.com](mailto:vashishthdivyanshu18@gmail.com)
+<p align="center">
+<b>Email:</b> <a href="mailto:vashishthdivyanshu18@gmail.com">vashishthdivyanshu18@gmail.com</a>
+</p>
 
 ---
 
-⭐ **If you like my profile, consider giving a star to my repositories!**
+<p align="center">⭐ If you like my profile, consider giving a star to my repositories!</p>
