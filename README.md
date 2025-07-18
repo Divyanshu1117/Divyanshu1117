@@ -10,15 +10,15 @@
 
 ## 🚀 About Me
 
-* 🔭 Currently working on **Java EE & MERN practice projects**
-* 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux basics**
-* 🧪 Experimenting with **Java Servlets, JSP, and MySQL**
-* 🤖 Exploring basics of **AI & Machine Learning**
-* ⚡ Motto: *Code. Learn. Repeat.*
+- 🔭 Currently working on **Java EE & MERN practice projects**
+- 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux basics**
+- 🧪 Experimenting with **Java Servlets, JSP, and MySQL**
+- 🤖 Exploring basics of **AI & Machine Learning**
+- ⚡ Motto: *Code. Learn. Repeat.*
 
 ---
 
-## 🛠️ Tech Stack (Animated)
+## 🛠️ Tech Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,react,redux,nodejs,express,mongodb,java,mysql,git,linux,ai" />
@@ -36,10 +36,11 @@
 
 ---
 
-## 🐍 Fancy Snake
+## 🐍 Contribution Snake (Dark + Neon)
 
-![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?t=2)
+![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?t=3)
 
+---
 
 ## 📫 Contact
 
