@@ -1,9 +1,9 @@
-name: Generate Neon Snake
+name: DEBUG Snake Build
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Runs every day
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -11,23 +11,22 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Snake (Neon Dark)
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: Divyanshu1117
-          outputs: dist/neon-snake.svg
-          color_snake: "#ff00ff,#00ffff,#ff1493"
-          color_dots: "#0d1117,#161b22,#30363d,#484f58,#6e7681"
-          svg_width: 1200
+          outputs: |
+            dist/snake-light.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - name: Add top margin (fix overflow issue)
+      - name: List dist contents
         run: |
-          sed -i 's/viewBox="0 0 1000 200"/viewBox="0 0 1000 250"/' dist/neon-snake.svg
+          echo "Dist contents:"
+          ls -R dist || echo "dist folder missing!"
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
