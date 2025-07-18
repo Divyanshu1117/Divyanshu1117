@@ -2,8 +2,11 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write  # This allows pushing to branches
 
 jobs:
   build:
@@ -18,9 +21,8 @@ jobs:
         with:
           github_user_name: Divyanshu1117
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#39d353"  # Green snake color
-          color_dots: "#161b22,#39d353,#26a641,#006d32,#0e4429" # Dark mode green shades
-          # First color = background, rest = contribution levels
+          color_snake: "#39d353"
+          color_dots: "#161b22,#39d353,#26a641,#006d32,#0e4429"
 
       - name: Push Snake to output branch
         run: |
