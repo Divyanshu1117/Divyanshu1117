@@ -40,7 +40,6 @@
 
 ![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/neon-snake.svg?t=1)
 
-
 ---
 
 ## 📫 Contact
