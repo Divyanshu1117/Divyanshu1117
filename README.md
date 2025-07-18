@@ -36,8 +36,10 @@
 
 ---
 
-## 🐍 Snake
-![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg)
+## 🐍 Fancy Snake
+
+![GitHub Snake Animation](https://raw.githubusercontent.com/Divyanshu1117/Divyanshu1117/output/github-contribution-grid-snake.svg?t=2)
+
 
 ## 📫 Contact
 
