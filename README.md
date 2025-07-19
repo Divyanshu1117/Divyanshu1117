@@ -15,20 +15,6 @@
 
 ---
 
-## 📜 Quote of the Day
-<p align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?theme=radical" alt="daily quote" />
-</p>
-
----
-
-## 💡 Daily Coding Tip
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder=true" alt="coding tip" />
-</p>
-
----
-
 ## 🚀 About Me
 - 🔭 Working on **Java EE & MERN practice projects**
 - 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux**
