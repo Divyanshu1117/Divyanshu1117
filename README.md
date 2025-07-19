@@ -8,6 +8,13 @@
 
 ---
 
+## ✨ Motivational Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="motivational quote" />
+</p>
+
+---
+
 ## 🚀 About Me
 - 🔭 Working on **Java EE & MERN practice projects**
 - 🌱 Learning **React, Redux, Node.js, Express, MongoDB & Linux**
