@@ -8,7 +8,7 @@
 
 ---
 
-## :rocket: About Me
+## :hammer_and_wrench: About Me
 - :telescope: Working on **Java EE & MERN practice projects**
 - :seedling: Learning **React, Redux, Node.js, Express, MongoDB & Linux**
 - :test_tube: Exploring **Java Servlets, JSP, and MySQL**
