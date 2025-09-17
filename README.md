@@ -26,12 +26,12 @@
 
 ## :bar_chart: GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Divyanshu1117&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117&layout=compact&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Divyanshu1117&show_icons=true&theme=radical" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyanshu1117&layout=compact&theme=radical" height="150" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Divyanshu1117&theme=radical&date_format=j%20M%5B%20Y%5D" width="80%" />
+  <img src="https://streak-stats.demolab.com?user=Divyanshu1117&theme=radical&date_format=j%20M%5B%20Y%5D" />
 </p>
 
 ---
